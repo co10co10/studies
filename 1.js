@@ -1,4 +1,13 @@
-function factoria(n) {
-
+function main (s){
+let result = 1;
+    for(let i =1;i <=s;i++){
+        result=result*i;
+ }
+ return result;
 }
-factoria(n>1)
+const data = main(10);
+
+console.log(data);
+
+
+// console.log(main(10))
